@@ -4,7 +4,8 @@
 - **SPA (Single Page Application)** : Application web qui charge une seule page HTML et met à jour dynamiquement le contenu sans recharger la page entière.
 - **IOT (Internet of Things)** : Réseau d'objets physiques connectés à Internet, capables de collecter et d'échanger des données.
 - **JS Vanilla** : JavaScript pur, sans l'utilisation de bibliothèques ou de frameworks supplémentaires.
-- **TypeScript** : Superset de JavaScript qui ajoute des types statiques et des fonctionnalités avancées pour améliorer la qualité du code.
+- **Live coding** : Pratique de programmation en temps réel, souvent utilisée à des fins pédagogiques pour démontrer des concepts de codage.
+
 
 ## Les Frameworks
 
@@ -26,3 +27,10 @@
 - **onfocus** : événement déclenché lorsqu'un élément reçoit le focus.
 - **onblur** : événement déclenché lorsqu'un élément perd le focus.
 - **onresize** : événement déclenché lorsque la fenêtre du navigateur est redimensionnée
+
+## pour aller plus loin
+- **TypeScript (TS)** : Surensemble de JavaScript qui ajoute le typage statique et d'autres fonctionnalités avancées pour améliorer la qualité du code et la maintenabilité des applications.
+- **Node.js** : Environnement d'exécution JavaScript côté serveur qui permet de créer des applications web évolutives et performantes.
+- **NPM (Node Package Manager)** : Gestionnaire de paquets pour JavaScript, utilisé pour installer, partager et gérer les dépendances des projets.
+- **API REST** : Interface de programmation qui utilise les principes REST pour permettre la communication entre les applications web.
+- **API Web** : Ensemble de protocoles et d'outils permettant aux applications web d'interagir avec des services externes.
