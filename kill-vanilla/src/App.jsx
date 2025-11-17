@@ -1,13 +1,14 @@
-import "./App.css";
-import ProfName from "./components/ProfName.jsx";
 import React from 'react';
+import Convertiseur from './components/convertiseur';
+import './App.css';
 
-const App = () => {
+function App() {
     return (
         <div>
-            <ProfName name="Thomas" />
+            <Convertiseur />
         </div>
     );
-};
+}
+
 
 export default App;
