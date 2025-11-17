@@ -35,3 +35,11 @@
 - **NPM (Node Package Manager)** : Gestionnaire de paquets pour JavaScript, utilisé pour installer, partager et gérer les dépendances des projets.
 - **API REST** : Interface de programmation qui utilise les principes REST pour permettre la communication entre les applications web.
 - **API Web** : Ensemble de protocoles et d'outils permettant aux applications web d'interagir avec des services externes.
+
+## Base commune
+- **Etat (State)** : Représentation des données d'une application à un moment donné.
+- **Propriétés (Props)** : Données passées aux composants pour les configurer ou les personnaliser.
+- **Cycle de vie** : Différentes étapes de la vie d'un composant, de sa création à sa destruction.
+- **Données calculées (Computed Data)** : Données dérivées de l'état ou des propriétés, souvent utilisées pour simplifier la logique de rendu.
+- **Événements (Events)** : Mécanismes permettant aux composants de communiquer entre eux ou de réagir aux interactions utilisateur.
+- **Afichage** : Processus de présentation des données à l'utilisateur via l'interface utilisateur.
