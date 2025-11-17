@@ -11,3 +11,16 @@
 - **Rendu (Rendering)** : Processus de génération de l'interface utilisateur à partir des composants et de l'état.
 - **Réactivité** : Capacité d'une application à répondre rapidement aux interactions de l'utilisateur en mettant à jour l'interface utilisateur.
 - **Méthodes de cycle de vie** : Fonctions qui permettent de gérer les différentes étapes de la vie d'un composant (création, mise à jour, destruction).
+
+## événements en JS
+
+- **onclick** : événement déclenché par un clic utilisateur.
+- **onchange** : événement déclenché lorsqu'une valeur d'entrée change.
+- **onsubmit** : événement déclenché lors de la soumission d'un formulaire.
+- **onload** : événement déclenché lorsque la page ou une ressource est complètement chargée.
+- **onmouseover** : événement déclenché lorsque le curseur de la souris survole un élément.
+- **onkeydown** : événement déclenché lorsqu'une touche du clavier est enfoncée.
+- **onkeyup** : événement déclenché lorsqu'une touche du clavier est relâchée.
+- **onfocus** : événement déclenché lorsqu'un élément reçoit le focus.
+- **onblur** : événement déclenché lorsqu'un élément perd le focus.
+- **onresize** : événement déclenché lorsque la fenêtre du navigateur est redimensionnée
