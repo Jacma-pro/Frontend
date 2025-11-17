@@ -5,6 +5,7 @@
 - **IOT (Internet of Things)** : Réseau d'objets physiques connectés à Internet, capables de collecter et d'échanger des données.
 - **JS Vanilla** : JavaScript pur, sans l'utilisation de bibliothèques ou de frameworks supplémentaires.
 - **Live coding** : Pratique de programmation en temps réel, souvent utilisée à des fins pédagogiques pour démontrer des concepts de codage.
+- **DOM (Document Object Model)** : Représentation en mémoire de la structure d'un document HTML ou XML, permettant la manipulation dynamique du contenu et de la structure de la page web.
 
 
 ## Les Frameworks
