@@ -49,8 +49,19 @@ button {
 }
 button:hover {
   cursor: pointer;
-  scale: 1.1;
+  animation: spin-button 0.5s linear infinite;
+  transform-origin: center;
 }
+
+@keyframes spin-button {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 
 .button-color-green {
   background-color: #4CAF50; /* Green */
