@@ -1,5 +1,5 @@
 import './App.css'
-import Compteur from './Components/count'
+import Compteur from './Components/oldCount'
 
 function App() {
 

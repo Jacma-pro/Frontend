@@ -46,7 +46,7 @@ const App = () => {
     );
 };
 
-const ProfName = (props: { onChange: (val: string) => void }) => {
+const ProfName = (props: { onNameChange: (val: string) => void }) => {
 
     const handleNameChange = useCallback(
         () => {
