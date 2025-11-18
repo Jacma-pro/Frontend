@@ -1,16 +1,16 @@
-import React, { useState, useMemo, use } from 'react';
+import React, { useState, useMemo } from 'react';
 
 const Compteur = () => {
     const [count, setCount] = useState(0);
     const colorButton = useMemo(() => {
         return count < 10 ? 'button-color-green' : 'button-color-red';
     }, [count]);
-    const hideButton = useMemo(() => {
+    const handlehideButton = useMemo(() => {
         return count >= 20 ? 'hideButton' : '';
     }, [count]);
 
     const [isHovered, setIsHovered] = useState(false);
-    const buttonHoveredClass = useMemo(() => {
+    const handlebuttonHoveredClass = useMemo(() => {
         return isHovered ? 'button-hover' : '';
     }, [isHovered]);
 
