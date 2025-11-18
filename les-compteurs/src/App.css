@@ -47,7 +47,7 @@ button {
   padding: 1rem 2rem;
   margin: 10px 5px;
 }
-button:hover {
+.button-hover{
   cursor: pointer;
   animation: spin-button 0.5s linear infinite;
   transform-origin: center;

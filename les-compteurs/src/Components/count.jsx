@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, use } from 'react';
 
 const Compteur = () => {
     const [count, setCount] = useState(0);
@@ -9,11 +9,18 @@ const Compteur = () => {
         return count >= 20 ? 'hideButton' : '';
     }, [count]);
 
-    return (
+    const [isHovered, setIsHovered] = useState(false);
+    const buttonHoveredClass = useMemo(() => {
+        return isHovered ? 'button-hover' : '';
+    }, [isHovered]);
+
+    return (    
         <>
             <div className='compteur-container'>
-                <button className={`${colorButton} ${hideButton}`} onClick={() => setCount(count => count + 2)}>
-
+                <button className={`${colorButton} ${hideButton} ${buttonHoveredClass}`} onClick={() => setCount(count => count + 2)} 
+                    onMouseEnter={() => setIsHovered(true)}
+                    onMouseLeave={() => setIsHovered(false)}
+                >
                     count is {count}
                 </button>
                 <button onClick={() => setCount(0)}>
