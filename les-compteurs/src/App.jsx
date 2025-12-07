@@ -1,13 +1,15 @@
 import './App.css'
 import Compteur from './Components/oldCount'
+import CountBasic from './Components/countBasic.jsx'
 
 function App() {
 
   return (
     <>
-      <h1>Try to reach 20</h1>
-      <Compteur />
-      <Compteur />
+      <CountBasic />
+      <CountBasic />
+      <h2>Total Count: </h2>
+
     </>
   )
 }

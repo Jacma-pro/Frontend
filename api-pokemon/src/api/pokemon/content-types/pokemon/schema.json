@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pokemons",
+  "info": {
+    "singularName": "pokemon",
+    "pluralName": "pokemons",
+    "displayName": "Pokemon"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "type1": {
+      "type": "string",
+      "required": true
+    },
+    "type2": {
+      "type": "string"
+    },
+    "cries": {
+      "type": "string",
+      "required": true
+    },
+    "sprite": {
+      "type": "string",
+      "required": true
+    },
+    "hp": {
+      "type": "integer",
+      "required": true
+    },
+    "idPokemon": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    }
+  }
+}
